@@ -1,0 +1,21 @@
+.bg {
+    width: 100vw;
+    height: 100vw;
+    padding: 1rem;
+    background-color: #f1efe5;
+}
+
+.bg-header {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-esq {
+    display: flex;
+}
+
+span {
+    width: 1rem;
+    height: 1rem;
+}
