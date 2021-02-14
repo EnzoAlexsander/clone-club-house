@@ -45,3 +45,9 @@ span {
     height: 2.25rem;
     border-radius: 100%;
 }
+
+.botao-footer {
+    border-radius: 20px;
+    border-style: none;
+    background-color: #F3F4F6;
+}
