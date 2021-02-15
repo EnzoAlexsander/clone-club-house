@@ -2,17 +2,21 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125rem;
     line-height: 1.75rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.bg {
-    width: 100vw;
-    height: 100vw;
+.container {
+    width: 100vh;
+    height: 100vh;
+    opacity: 1;
+    background-color: rgba(255, 251, 235, 1);
     padding: 1rem;
-    background-color: #f1efe5;
 }
 
 .bg-header {
-    width: 92%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -22,11 +26,10 @@ body {
     align-items: center;
 }
 
-span {
+.svg {
     width: 1.35rem;
     height: 1.35rem;
     margin-right: 4px;
-    display: flex;
 }
 
 .menu-dir {
@@ -37,7 +40,6 @@ span {
 .paper {
     width: 1.50rem;
     margin-right: 3rem;
-    display: flex;
 }
 
 .image {
@@ -46,8 +48,27 @@ span {
     border-radius: 100%;
 }
 
+footer {
+    margin: auto;
+    height: 3rem;
+}
+
 .botao-footer {
-    border-radius: 20px;
+    border-radius: 9999px;
     border-style: none;
-    background-color: #F3F4F6;
+    background-color: rgba(229, 231, 235, 1);
+
+    padding: 0.375rem 1rem 0.375rem 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.emoticon {
+    margin-top: 0.125rem;
+}
+
+.text-span {
+    color: rgba(239, 68, 68, 0.8);
+    margin-left: 0.5rem;
 }
