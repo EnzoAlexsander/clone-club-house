@@ -8,15 +8,14 @@ body {
 }
 
 .container {
-    width: 100vh;
-    height: 100vh;
-    opacity: 1;
-    background-color: rgba(255, 251, 235, 1);
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 251, 235, 0.9);
     padding: 1rem;
 }
 
 .bg-header {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
 }
@@ -29,7 +28,7 @@ body {
 .svg {
     width: 1.35rem;
     height: 1.35rem;
-    margin-right: 4px;
+    margin-right: 0.25rem;
 }
 
 .menu-dir {
@@ -49,11 +48,15 @@ body {
 }
 
 footer {
+    width: 95%;
     margin: auto;
-    height: 3rem;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.botao-footer {
+.footer-esq {
     border-radius: 9999px;
     border-style: none;
     background-color: rgba(229, 231, 235, 1);
@@ -71,4 +74,11 @@ footer {
 .text-span {
     color: rgba(239, 68, 68, 0.8);
     margin-left: 0.5rem;
+}
+
+.more {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    border-style: none;
+    background-color: rgb(229, 231, 235); 
 }
