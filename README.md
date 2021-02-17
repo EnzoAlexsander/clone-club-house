@@ -1,2 +1,12 @@
-# clone-club-house
- Clone do App Club House - HTML, CSS e JavaScript
+# Clone do app Club House
+
+## Techs
+
+* [ ] HTML
+* [ ] CSS
+
+## Author
+
+**Enzo Alexsander**
+
+
