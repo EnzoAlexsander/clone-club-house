@@ -1,56 +1,26 @@
-* {
+/*******************Configurações gerais********************/
+*, :root, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.2px;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/**********************Container*************************/
 .container {
     width: 100%;
     background-color: rgb(255, 251, 235);
     padding: 1rem;
 }
 
-.conteudo {
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-
-    min-height: 100%;
-
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.grid {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-main > div p {
-    background-color: #ddd;
-    border-radius: 42%;
-    width: 75px;
-    height: 75px;
-    text-indent: -9999px;
-    display: block;
-    overflow: hidden;
-}
-
+/**********************Header****************************/
 .bg-header {
     width: 100%;
     display: flex;
@@ -84,6 +54,45 @@ main > div p {
     border-radius: 100%;
 }
 
+/************************Main****************************/
+main > div p {
+    background-color: #ddd;
+    border-radius: 42%;
+    width: 85px;
+    height: 85px;
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+}
+
+main > div {
+    align-items: center;
+    justify-items: center;
+}
+
+.conteudo {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+
+    border-top-left-radius: 2.3rem;
+    border-top-right-radius: 2.3rem;
+
+    min-height: 100%;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/************************Rodapé**********************/
 footer {
     position: fixed;
     bottom: 0px;
@@ -110,7 +119,7 @@ footer {
 .emoticon {
     margin-top: 0.125rem;
 }
-
+/**/
 .text-span {
     color: rgba(239, 68, 68, 0.8);
     margin-left: 0.5rem;
