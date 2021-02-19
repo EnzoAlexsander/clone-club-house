@@ -8,9 +8,17 @@
 }
 
 body {
+    margin: auto;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 251, 235);
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        max-width: 28rem;
+    }
 }
 
 /**********************Container*************************/
@@ -30,11 +38,13 @@ body {
 .menu-esq {
     display: flex;
     align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 
 .svg {
-    width: 1.35rem;
-    height: 1.35rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: 0.25rem;
 }
 
@@ -44,14 +54,15 @@ body {
 }
 
 .paper {
-    width: 1.50rem;
-    margin-right: 3rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 2.25rem;
 }
 
 .image {
-    width: 2.25rem;
-    height: 2.25rem;
-    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
 }
 
 /************************Main****************************/
